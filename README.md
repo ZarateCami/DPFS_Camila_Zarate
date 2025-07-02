@@ -3,7 +3,7 @@
 
 ## 🌟 Descripción del sitio
 
-En latín, **Noctua** - significa lechuza (símbolo de sabiduría). 
+En latín, **Noctua** significa lechuza (símbolo de sabiduría). 
 Noctua es una tienda online que ofrece productos inspirados en el mundo de la magia, el misterio y la cultura geek. Nuestra colección incluye desde varitas y pociones decorativas, hasta remeras de fandoms, velas con fragancias encantadas, cartas de tarot, libros antiguos, runas, amuletos, pósters de sagas y más.
 
 Cada producto está pensado para fanáticos del universo mágico y de sagas icónicas como Harry Potter, El Señor de los Anillos, Star Wars, Studio Ghibli, Marvel, y mucho más.
