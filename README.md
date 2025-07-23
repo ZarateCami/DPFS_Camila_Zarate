@@ -32,3 +32,7 @@ Mi nombre es Camila Zarate y estoy en formación como desarrolladora web full st
 3. **Bazinga** - Inspiración en colores y animaciones <a href="https://www.bazingatiendageek.com.ar/" target="_blank">Enlace</a>
 4. **Hadouken** - Se tomó como modelo la disposición de los productos y animaciones en cada uno de ellos <a href="https://hadouken.com.ar/" target="_blank">Enlace</a>
 5. **Geekhouse** - Formato de letras, colores y fotos <a href="https://www.geekhouse.com.ar/" target="_blank">Enlace</a>
+
+
+## Enlace al tablero de trabajo 🗂️
+[Ver tablero en Trello](https://trello.com/b/qSTKlBuO/noctua)
