@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ecefca;
+}
+
+.nav-bar {
+  background: linear-gradient(
+    90deg,
+    rgba(148, 180, 193, 1) 0%,
+    rgba(84, 119, 146, 1) 50%,
+    rgba(33, 52, 72, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 32px;
+  align-items: center;
+  height: 100px;
+  gap: 16px;
+}
+
+.nav-bar img {
+  width: 100px;
+}
+
+.search-container {
+  background-color: #ecefca;
+  display: flex;
+  border-radius: 80px;
+  height: 24px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 16px;
+}
+
+.search-container input {
+  display: flex;
+  flex: 1; /* Ocupa todo el espacio disponible */
+  border-radius: 80px;
+  border: none;
+  background-color: transparent;
+  text-align: start;
+}
+input:focus {
+  outline: none;
+}
+.nav-bar__actions {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    hsl(197, 27%, 67%) 0%,
+    rgba(84, 119, 146, 1) 50%,
+    rgba(33, 52, 72, 1) 100%
+  );
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+  height: 150px;
+  gap: 16px;
+  width: 100%;
+}
+
+.contactus ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.contactus li {
+  display: flex;
+  gap: 4px
+}
+
+.copyright {
+  text-align: center;
+}
+
+.categories-nav {
+   background: linear-gradient(
+    90deg,
+    rgba(148, 180, 193, 1) 0%,
+    rgba(84, 119, 146, 1) 50%,
+    rgba(33, 52, 72, 1) 100%
+  );
+  border-top: 1px solid #547792;
+  border-bottom: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.categories-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.categories-list li a {
+  text-decoration: none;
+  color: black;
+  padding: 6px 12px;
+}
+
+.categories-list li a:hover {
+  color: #555;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.img-center img {
+  max-width: 700px;
+}
+
+.img-center {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
