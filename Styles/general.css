@@ -113,78 +113,153 @@ input:focus {
   cursor: pointer;
 }
 
-.contactUs__title {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.nav-bar__hamburguesa {
+  display: none; /* Oculto */
   font-size: 24px;
-  box-shadow: #547792;
   color: aliceblue;
-  padding-top: 10px;
-  background-color: blue;
-}
-
-.contactUs {
-  display: flex;
-  gap: 24px;
-  justify-content: space-around;
-  background-color: red;
-}
-
-.contact {
-  display: flex;
-  gap: 6px;
-  font-size: 20px;
-  justify-content: space-between;
-}
-
-.contact:hover {
-  padding-bottom: 1px;
-  border-bottom: 2px solid #547792;
   cursor: pointer;
 }
-.redes{
-  background-color: black;
-  color:white
-}
-footer {
+
+.contactUs__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
   background-color: #213448;
   color: aliceblue;
+  height: 200px;
+}
+
+.contactanos p,
+.nuestrasRedes p {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px 0 16px 20px;
+  color: aliceblue;
+  display: flex;
+  gap: 8px;
+}
+
+.contacts .contact,
+.redesSociales .redes {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.contact:hover,
+.redes:hover {
+  color: #547792;
+  cursor: pointer;
+}
+
+footer {
+  background-color: aliceblue;
   align-items: center;
   width: 100%;
-  height: 40px;
+  height: 30px;
   display: flex;
-  justify-content: center;
-  border-top: 1px solid #547792;
 }
 
 .footer__copyright {
-  background-color: #213448;
-  color: aliceblue;
+  color: #213448;
+  background-color: aliceblue;
   font-size: 14px;
   align-items: center;
   width: 100%;
-  height: 20px;
-  display: flex;
-  justify-content: center;
-  height: 30px;
+  margin-left: 10px;
 }
 
 .footer__copyright a {
   text-decoration: none;
-  color: #0255ae;
+  color: #74a6dc;
 }
 
-@media (max-width: 600px) {
-  .footer {
-    overflow-x: auto;
-    white-space: nowrap;
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
   }
-  .contactUs {
-    white-space: nowrap;
-  
+
+  .search-container {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .nav-bar__actions {
+    font-size: 20px;
+    gap: 20px;
+  }
+
+  .nav-bar__categories {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .categoria {
+    width: auto;
+    flex: 0 0 auto;
+    font-size: 10px;
+  }
+
+  .contactUs__container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    gap: 20px;
+    text-align: left;
+  }
+
+  .contacts .contact,
+  .redesSociales .redes {
+    font-size: 16px;
+    margin-left: 16px;
+  }
+
+  .contactanos p,
+  .nuestrasRedes p {
+    font-size: 20px;
+    margin-left: 16px;
+  }
+
+  .footer__copyright {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  footer {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  /* Oculta las categorías horizontales */
+  .nav-bar__categories {
+    display: none;
+  }
+
+  /* Muestra solo el icono del carrito */
+  .nav-bar__actions {
+    gap: 0;
+  }
+
+  .nav-bar__actions i:not(.fa-cart-shopping) {
+    display: none;
+  }
+
+  /* Muestra la hamburguesa */
+  .nav-bar__hamburguesa {
+    display: block;
   }
 }
+
 .img-center img {
   max-width: 700px;
 }
