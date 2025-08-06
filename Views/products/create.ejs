@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <%- include('../partials/head') %>
+  <body>
+    <%- include('../partials/header') %>
+
+    <h1>Crear nuevo producto</h1>
+
+    <form action="/products/create" method="POST">
+      <input type="text" name="name" placeholder="Nombre del producto" required />
+      <textarea name="description" placeholder="Descripción" required></textarea>
+      <input type="text" name="image" placeholder="URL de la imagen" />
+      <input type="text" name="category" placeholder="Categoría" required />
+      <input type="text" name="colors" placeholder="Colores / Talles" />
+      <input type="number" name="price" placeholder="Precio" step="0.01" required />
+
+      <button type="submit">Crear producto</button>
+    </form>
+
+    <%- include('../partials/footer') %>
+  </body>
+</html>
