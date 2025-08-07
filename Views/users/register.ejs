@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('../partials/header') %>
+  <%- include('../partials/head') %>
+  <link rel="stylesheet" href="/styles/register.css" />
 
+  <body>
+     <%- include('../partials/header') %>
+    <main>
+      <div class="register-container">
+        <div class="breadcrumb">Inicio > Mi Cuenta > Crear cuenta</div>
+        <h2>Crear cuenta</h2>
 
-<%- include('../partials/footer') %>
+        <p>
+          Comprá más rápido y llevá el control de tus pedidos ¡En un solo lugar!
+        </p>
 
-<body>
-    
-</body>
+        <form class="register-form">
+          <label for="name">Nombre y apellido</label>
+          <input type="name" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Telefono(Opcional)</label>
+          <input type="phone" id="phone" name="phone" required />
+
+          <label for="password">Contraseña</label>
+          <div class="password-wrapper">
+            <input type="password" id="password" name="password" required />
+            <span class="toggle-password"
+              ><i class="fa-solid fa-eye-slash"></i
+            ></span>
+          </div>
+
+          <label for="confirm-password">Confirme contraseña</label>
+          <div class="password-wrapper">
+            <input
+              type="confirm-password"
+              id="confirm-password"
+              name="confirm-password"
+              required
+            />
+            <span class="toggle-password"
+              ><i class="fa-solid fa-eye-slash"></i
+            ></span>
+          </div>
+
+          <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+
+          <button type="submit">REGISTRATE</button>
+
+          <p class="register-link">
+            ¿Ya tenés cuenta? <a href="#">Iniciar sesión</a>
+          </p>
+        </form>
+      </div>
+    </main>
+    <%- include('../partials/footer') %>
+  </body>
 </html>

@@ -2,31 +2,35 @@
 <html lang="en">
   <%- include('../partials/head') %>
 
-  <link rel="stylesheet" href="/public/styles/login.css" />
+  <link rel="stylesheet" href="/styles/login.css" />
 
   <body>
     <%- include('../partials/header') %>
-    <div class="login-container">
-    <div class="breadcrumb">Inicio > Mi Cuenta > Login</div>
-    <h2>Iniciá sesión</h2>
+    <main>
+      <div class="login-container">
+        <div class="breadcrumb">Inicio > Mi Cuenta > Login</div>
+        <h2>Iniciá sesión</h2>
 
-    <form class="login-form">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required />
+        <form class="login-form">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
 
-      <label for="password">Contraseña</label>
-      <div class="password-wrapper">
-        <input type="password" id="password" name="password" required />
-        <span class="toggle-password">👁️</span>
+          <label for="password">Contraseña</label>
+          <div class="password-wrapper">
+            <input type="password" id="password" name="password" required />
+            <span class="toggle-password"><i class="fa-solid fa-eye-slash"></i></span>
+          </div>
+
+          <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+
+          <button type="submit">INICIAR SESIÓN</button>
+
+          <p class="register-link">
+            ¿No tenés cuenta aún? <a href="#">Crear cuenta</a>
+          </p>
+        </form>
       </div>
-
-      <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
-
-      <button type="submit">INICIAR SESIÓN</button>
-
-      <p class="register-link">¿No tenés cuenta aún? <a href="#">Crear cuenta</a></p>
-    </form>
-  </div>
-     <%- include('../partials/footer') %>
+    </main>
+    <%- include('../partials/footer') %>
   </body>
 </html>

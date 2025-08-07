@@ -4,9 +4,14 @@
 }
 
 body {
-  background-color: aliceblue;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-
+.main {
+  flex: 1
+}
 .nav-bar__banner {
   display: flex;
   background-color: aliceblue;
