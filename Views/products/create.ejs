@@ -4,36 +4,7 @@
   <link rel="stylesheet" href="/styles/form.css" />
   <body>
     <%- include('../partials/header') %>
-    <main>
-      <div class="form-container">
-        <h2>Crear nuevo producto</h2>
-        <form class="form" action="/products/create" method="POST">
-          <input
-            type="text"
-            name="name"
-            placeholder="Nombre del producto"
-            required
-          />
-          <textarea
-            name="description"
-            placeholder="Descripción"
-            required
-          ></textarea>
-          <input type="text" name="image" placeholder="URL de la imagen" />
-          <input type="text" name="category" placeholder="Categoría" required />
-          <input type="text" name="colors" placeholder="Colores / Talles" />
-          <input
-            type="number"
-            name="price"
-            placeholder="Precio"
-            step="0.01"
-            required
-          />
-
-          <button type="submit">Crear producto</button>
-        </form>
-      </div>
-    </main>
+    <main><%- include('../partials/productForm') %></main>
     <%- include('../partials/footer') %>
   </body>
 </html>
