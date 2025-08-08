@@ -102,12 +102,12 @@ button:hover {
   background-color: #5a6a7f;
 }
 
-.register-link {
+.link {
   font-size: 13px;
   margin-top: 10px;
 }
 
-.register-link a {
+.link a {
   font-weight: bold;
   color: #000;
   text-decoration: none;

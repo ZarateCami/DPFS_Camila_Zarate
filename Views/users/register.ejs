@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <%- include('../partials/head') %>
-  <link rel="stylesheet" href="/styles/register.css" />
+  <link rel="stylesheet" href="/styles/form.css" />
 
   <body>
     <%- include('../partials/header') %>
     <main>
-      <div class="register-container">
-        <div class="breadcrumb"><a href="/">Inicio</a> > <a href="/users/login">Mi Cuenta</a> > Crear cuenta</div>
+      <div class="form-container">
+        <div class="breadcrumb">
+          <a href="/">Inicio</a> > <a href="/users/login">Mi Cuenta</a> > Crear
+          cuenta
+        </div>
         <h2>Crear cuenta</h2>
 
         <p>
           Comprá más rápido y llevá el control de tus pedidos ¡En un solo lugar!
         </p>
 
-        <form class="register-form">
+        <form class="form">
           <label for="name">Nombre y apellido</label>
           <input type="name" id="name" name="name" required />
 
@@ -47,8 +50,9 @@
 
           <button type="submit">REGISTRATE</button>
 
-          <p class="register-link">
-            ¿Ya tenés cuenta? <a href="/users/login" target="_blank">Iniciar sesión</a>
+          <p class="link">
+            ¿Ya tenés cuenta?
+            <a href="/users/login" target="_blank">Iniciar sesión</a>
           </p>
         </form>
       </div>

@@ -8,6 +8,12 @@ main {
   display: flex;
   justify-content: center;
   flex: 1;
+  height: auto;
+}
+
+main p {
+  margin: 10px 0 40px;
+  color: #213448;
 }
 
 .form-container {
@@ -52,8 +58,8 @@ label {
   margin-top: 16px;
 }
 
-input[type="email"],
-input[type="password"] {
+input,
+textarea {
   padding: 10px;
   border: 1px solid #213448;
   border-radius: 12px;
