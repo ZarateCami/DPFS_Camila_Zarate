@@ -16,38 +16,49 @@ main {
   padding: 30px;
   text-align: center;
   background-color: aliceblue;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
-.breadcrumb {
+.breadcrumb,
+.breadcrumb a {
   font-size: 12px;
-  color: #444;
+  color: #213448;
   margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.breadcrumb:hover,
+.breadcrumb a:hover {
+  color: #5a6a7f;
 }
 
 h2 {
   margin-bottom: 25px;
-  color: #333;
+  color: #213448;
+  display: flex;
+  justify-content: center;
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 6px;
 }
 
 label {
   text-align: left;
   font-size: 14px;
-  color: #333;
+  color: #213448;
+  margin-top: 16px;
 }
 
 input[type="email"],
 input[type="password"] {
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid #213448;
+  border-radius: 12px;
   width: 100%;
+  background-color: aliceblue;
 }
 
 .password-wrapper {
@@ -64,25 +75,30 @@ input[type="password"] {
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
-  color: #777;
+  color: #213448;
 }
 
 .forgot-password {
   font-size: 12px;
   text-align: right;
   display: block;
-  margin-top: -10px;
-  color: #555;
+  margin-top: 5px;
+  color: #213448;
   text-decoration: none;
 }
 
+.forgot-password:hover {
+  color: #5a6a7f;
+}
+
 button {
-  background-color: #6b7a90;
-  color: white;
+  background-color: #213448;
+  color: aliceblue;
   padding: 12px;
   border: none;
-  border-radius: 6px;
+  border-radius: 12px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 button:hover {
