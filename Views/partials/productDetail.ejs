@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
- <%- include('../partials/head') %> 
-  
 <body>
+  <%- include('../partials/head') %>
+  <link rel="stylesheet" href="/styles/productDetail.css" />
+
   <%- include('../partials/header') %>
-  
+
   <main>
     <div class="product-detail-container">
-      <div class="breadcrumb">
-        Inicio > Categoría > Nombre del producto
-      </div>
+      <div class="breadcrumb">Inicio > Categoría > Nombre del producto</div>
 
       <div class="product-detail">
         <!-- Imagen -->
         <div class="product-image">
-          <img src="/img/producto1.jpg" alt="Nombre del producto">
+          <img src="/img/producto1.jpg" alt="Nombre del producto" />
         </div>
 
         <!-- Información -->
@@ -22,11 +19,12 @@
           <h1>Nombre del Producto</h1>
           <p class="price">$ 4.999</p>
           <p class="description">
-            Descripción breve del producto. Puede incluir detalles como material, dimensiones o características principales.
+            Descripción breve del producto. Puede incluir detalles como
+            material, dimensiones o características principales.
           </p>
 
           <label for="cantidad">Cantidad</label>
-          <input type="number" id="cantidad" value="1" min="1">
+          <input type="number" id="cantidad" value="1" min="1" />
 
           <button id="add-to-cart">Agregar al carrito</button>
         </div>
@@ -36,5 +34,3 @@
 
   <%- include('../partials/footer') %>
 </body>
-
-</html>

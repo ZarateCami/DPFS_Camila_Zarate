@@ -28,7 +28,7 @@ router.get("/productCart", function (req, res, next) {
 
 router.get("/:id", (req, res) => {
   const { id } = req.params
-  res.render("/products/productDetail", { id })
+  res.render("./products/productDetail", { id })
 })
 
 module.exports = router
