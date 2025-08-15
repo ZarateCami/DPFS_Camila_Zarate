@@ -11,6 +11,21 @@
   --detail: #f8b500;
 }
 
+.logo-link {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  text-decoration: none;
+}
+
+.logo-link:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  cursor: pointer;
+  max-height: 70px; /* Ajusta según tu diseño */
+}
+
 body {
   /* background-color: var(--); */
   display: flex;
@@ -43,10 +58,6 @@ body {
   align-items: center;
   height: 116px;
   gap: 16px;
-}
-
-.nav-bar img {
-  width: 70px;
 }
 
 .search-container {

@@ -1,0 +1,213 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Carlos",
+      "lastName": "García",
+      "email": "carlos.garcia@empresa.com",
+      "password": "P@ssw0rd123",
+      "category": "admin"
+    },
+    {
+      "id": 2,
+      "firstName": "Ana",
+      "lastName": "Martínez",
+      "email": "ana.martinez@gmail.com",
+      "password": "SecurePass456",
+      "category": "usuario"
+    },
+    {
+      "id": 3,
+      "firstName": "Diego",
+      "lastName": "López",
+      "email": "diego.lopez@hotmail.com",
+      "password": "MyPassword789",
+      "category": "usuario"
+    },
+    {
+      "id": 4,
+      "firstName": "María",
+      "lastName": "González",
+      "email": "maria.gonzalez@yahoo.com",
+      "password": "StrongPass321",
+      "category": "usuario"
+    },
+    {
+      "id": 5,
+      "firstName": "Alejandro",
+      "lastName": "Rodríguez",
+      "email": "alejandro.rodriguez@empresa.com",
+      "password": "AdminKey2024",
+      "category": "admin"
+    },
+    {
+      "id": 6,
+      "firstName": "Sofia",
+      "lastName": "Fernández",
+      "email": "sofia.fernandez@gmail.com",
+      "password": "UserPass147",
+      "category": "usuario"
+    },
+    {
+      "id": 7,
+      "firstName": "Fernando",
+      "lastName": "Pérez",
+      "email": "fernando.perez@empresa.com",
+      "password": "ModeratorKey98",
+      "category": "usuario"
+    },
+    {
+      "id": 8,
+      "firstName": "Laura",
+      "lastName": "Sánchez",
+      "email": "laura.sanchez@hotmail.com",
+      "password": "GuestAccess55",
+      "category": "usuario"
+    },
+    {
+      "id": 9,
+      "firstName": "Manuel",
+      "lastName": "Jiménez",
+      "email": "manuel.jimenez@yahoo.com",
+      "password": "TempPassword11",
+      "category": "usuario"
+    },
+    {
+      "id": 10,
+      "firstName": "Carolina",
+      "lastName": "Ruiz",
+      "email": "carolina.ruiz@gmail.com",
+      "password": "NewUserPass22",
+      "category": "usuario"
+    },
+    {
+      "id": 11,
+      "firstName": "Gabriel",
+      "lastName": "Moreno",
+      "email": "gabriel.moreno@empresa.com",
+      "password": "SuperAdmin999",
+      "category": "admin"
+    },
+    {
+      "id": 12,
+      "firstName": "Elena",
+      "lastName": "Díaz",
+      "email": "elena.diaz@hotmail.com",
+      "password": "RegularUser44",
+      "category": "usuario"
+    },
+    {
+      "id": 13,
+      "firstName": "Nicolás",
+      "lastName": "Hernández",
+      "email": "nicolas.hernandez@yahoo.com",
+      "password": "ModPass2024",
+      "category": "admin"
+    },
+    {
+      "id": 14,
+      "firstName": "Valentina",
+      "lastName": "Castro",
+      "email": "valentina.castro@gmail.com",
+      "password": "UserAccess88",
+      "category": "usuario"
+    },
+    {
+      "id": 15,
+      "firstName": "Ricardo",
+      "lastName": "Vargas",
+      "email": "ricardo.vargas@empresa.com",
+      "password": "TechAdmin777",
+      "category": "admin"
+    },
+    {
+      "id": 16,
+      "firstName": "Camila",
+      "lastName": "Torres",
+      "email": "camila.torres@hotmail.com",
+      "password": "SimplePass123",
+      "category": "usuario"
+    },
+    {
+      "id": 17,
+      "firstName": "Santiago",
+      "lastName": "Ramírez",
+      "email": "santiago.ramirez@yahoo.com",
+      "password": "ModeratorKey33",
+      "category": "admin"
+    },
+    {
+      "id": 18,
+      "firstName": "Isabella",
+      "lastName": "Flores",
+      "email": "isabella.flores@gmail.com",
+      "password": "MySecretPass",
+      "category": "usuario"
+    },
+    {
+      "id": 19,
+      "firstName": "Andrés",
+      "lastName": "Herrera",
+      "email": "andres.herrera@empresa.com",
+      "password": "DevPassword456",
+      "category": "usuario"
+    },
+    {
+      "id": 20,
+      "firstName": "Natalia",
+      "lastName": "Mendoza",
+      "email": "natalia.mendoza@hotmail.com",
+      "password": "GuestUser2024",
+      "category": "usuario"
+    },
+    {
+      "id": 21,
+      "firstName": "Pablo",
+      "lastName": "Silva",
+      "email": "pablo.silva@yahoo.com",
+      "password": "AdminControl99",
+      "category": "admin"
+    },
+    {
+      "id": 22,
+      "firstName": "Daniela",
+      "lastName": "Rojas",
+      "email": "daniela.rojas@gmail.com",
+      "password": "StandardUser77",
+      "category": "usuario"
+    },
+    {
+      "id": 23,
+      "firstName": "Joaquín",
+      "lastName": "Ortega",
+      "email": "joaquin.ortega@empresa.com",
+      "password": "ModSupport2024",
+      "category": "admin"
+    },
+    {
+      "id": 24,
+      "firstName": "Fernanda",
+      "lastName": "Guerrero",
+      "email": "fernanda.guerrero@hotmail.com",
+      "password": "VisitorPass55",
+      "category": "usuario"
+    },
+    {
+      "id": 25,
+      "firstName": "Mateo",
+      "lastName": "Aguilar",
+      "email": "mateo.aguilar@yahoo.com",
+      "password": "FinalUser2024",
+      "category": "usuario"
+    }
+  ],
+  "metadata": {
+    "totalUsers": 25,
+    "categories": {
+      "admin": 8,
+      "usuario": 17
+    },
+    "lastUpdated": "2025-08-14",
+    "version": "1.0"
+  }
+}
