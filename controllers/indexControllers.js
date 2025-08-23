@@ -1,5 +1,8 @@
+
+
 let indexController = {
-  home: function (req, res, next) {
+  home: function (req, res) {
+
     res.render("home")
   },
 }

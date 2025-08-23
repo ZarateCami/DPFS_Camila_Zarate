@@ -18,4 +18,10 @@ router.get("/productCart", productController.productCart)
 
 router.get("/:id", productController.productDetail)
 
+/*ME FALTA CREAR:
+/products/:id (PUT)
+Acción de edición (a donde se envía el formulario):
+/products/:id (DELETE)
+Acción de borrado*/
+
 module.exports = router

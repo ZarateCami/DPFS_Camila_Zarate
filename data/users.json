@@ -1,5 +1,4 @@
-{
-  "users": [
+[
     {
       "id": 1,
       "firstName": "Carlos",
@@ -120,4 +119,3 @@
       "password": "TechAdmin777",
       "category": "admin"
     }]
-}

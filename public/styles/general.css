@@ -11,6 +11,14 @@
   --detail: #f8b500;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .logo-link {
   display: inline-block;
   transition: transform 0.2s ease;
@@ -27,11 +35,12 @@
 }
 
 body {
-  /* background-color: var(--); */
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding-top: 200px;
 }
+
 .main {
   flex: 1;
 }
@@ -183,7 +192,7 @@ input:focus {
   gap: 8px;
   font-size: 20px;
   margin-left: 20px;
-  color: var(--colorFont)
+  color: var(--colorFont);
 }
 
 .contact:hover,

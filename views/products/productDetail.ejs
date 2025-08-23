@@ -10,19 +10,20 @@
       <div class="breadcrumb">
         Inicio > Categoría > Nombre del producto
       </div>
+      
 
       <div class="product-detail">
         <!-- Imagen -->
         <div class="product-image">
-          <img src="/img/producto1.jpg" alt="Nombre del producto">
+          <img src="<%= prod.image %>" alt="<%= prod.name %>">
         </div>
 
         <!-- Información -->
         <div class="product-info">
-          <h1>Nombre del Producto</h1>
-          <p class="price">$ 4.999</p>
+          <h1><%= prod.name %></h1>
+          <p class="price"> <%= prod.price %></p>
           <p class="description">
-            Descripción breve del producto. Puede incluir detalles como material, dimensiones o características principales.
+            <%= prod.description %>
           </p>
 
           <label for="cantidad">Cantidad</label>
