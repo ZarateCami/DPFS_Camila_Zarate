@@ -29,9 +29,6 @@ h2 {
   justify-content: center;
 }
 
-main p {
-}
-
 .form-container {
   max-width: 600px;
   width: 100%;
@@ -142,6 +139,7 @@ button:hover {
 .link {
   font-size: 13px;
   margin-top: 10px;
+  gap: 6px;
 }
 
 .link a {
@@ -149,3 +147,8 @@ button:hover {
   color: #000;
   text-decoration: none;
 }
+
+.link a:hover {
+    color: var(--colorSecundario);
+  }
+

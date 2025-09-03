@@ -19,16 +19,16 @@ register: function(req, res, next) {
   const users = JSON.parse(fs.readFileSync(usersPath, 'utf-8'));
 
   //Recibir la info y armar la estructura del nuevo usuario
-//   let newUser = {
-//     id:,
-//     name:,
-//     email:,
-//     phone:
-//     password: 
-//   }
-//   res.render('users/register');
-
+  //  let newUser = {
+// id:,
+// name:,
+// email:,
+// phone:,
+// password:;
 // }
+  res.render('users/register');
+
+ }
 }
 
 module.exports = userController
