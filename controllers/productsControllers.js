@@ -8,6 +8,7 @@ let productController = {
   createProduct: function (req, res) {
     res.render("products/create")
   },
+  
 
   newProduct: function (req, res) {
     console.log(req.body)
@@ -36,7 +37,7 @@ let productController = {
     let products = JSON.parse(productsJson) /*Lo convierte en JS*/
     let prod = products.find(product => product.id == req.params.id)
     res.render("products/productDetail", {prod})
-  },
+  }
 }
 
 module.exports = productController
