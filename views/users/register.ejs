@@ -17,18 +17,21 @@
           Comprá más rápido y llevá el control de tus pedidos ¡En un solo lugar!
         </p>
 
-        <form class="form" action="/controllers/usersController.js">
+        <form class="form" action="/users/register" method="post" enctype="multipart/form-data">
           <label for="name">Nombre y apellido</label>
-          <input type="name" id="name" name="name" required />
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <% if (typeof error != "undefined") { %>
+          <small class="error"><%= error %></small>
+          <% } %>
 
           <label for="Imagen de perfil">Imagen de perfil</label>
           <input type="file" id="img" name="profile" />
 
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-
           <label for="phone">Teléfono (Opcional)</label>
-          <input type="phone" id="phone" name="phone" required />
+          <input type="phone" id="phone" name="phone" />
 
           <label for="password">Contraseña</label>
           <div class="password-wrapper">

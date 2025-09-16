@@ -1,121 +1,173 @@
 [
-    {
-      "id": 1,
-      "firstName": "Carlos",
-      "lastName": "García",
-      "email": "carlos.garcia@empresa.com",
-      "password": "P@ssw0rd123",
-      "category": "admin"
-    },
-    {
-      "id": 2,
-      "firstName": "Ana",
-      "lastName": "Martínez",
-      "email": "ana.martinez@gmail.com",
-      "password": "SecurePass456",
-      "category": "usuario"
-    },
-    {
-      "id": 3,
-      "firstName": "Diego",
-      "lastName": "López",
-      "email": "diego.lopez@hotmail.com",
-      "password": "MyPassword789",
-      "category": "usuario"
-    },
-    {
-      "id": 4,
-      "firstName": "María",
-      "lastName": "González",
-      "email": "maria.gonzalez@yahoo.com",
-      "password": "StrongPass321",
-      "category": "usuario"
-    },
-    {
-      "id": 5,
-      "firstName": "Alejandro",
-      "lastName": "Rodríguez",
-      "email": "alejandro.rodriguez@empresa.com",
-      "password": "AdminKey2024",
-      "category": "admin"
-    },
-    {
-      "id": 6,
-      "firstName": "Sofia",
-      "lastName": "Fernández",
-      "email": "sofia.fernandez@gmail.com",
-      "password": "UserPass147",
-      "category": "usuario"
-    },
-    {
-      "id": 7,
-      "firstName": "Fernando",
-      "lastName": "Pérez",
-      "email": "fernando.perez@empresa.com",
-      "password": "ModeratorKey98",
-      "category": "usuario"
-    },
-    {
-      "id": 8,
-      "firstName": "Laura",
-      "lastName": "Sánchez",
-      "email": "laura.sanchez@hotmail.com",
-      "password": "GuestAccess55",
-      "category": "usuario"
-    },
-    {
-      "id": 9,
-      "firstName": "Manuel",
-      "lastName": "Jiménez",
-      "email": "manuel.jimenez@yahoo.com",
-      "password": "TempPassword11",
-      "category": "usuario"
-    },
-    {
-      "id": 10,
-      "firstName": "Carolina",
-      "lastName": "Ruiz",
-      "email": "carolina.ruiz@gmail.com",
-      "password": "NewUserPass22",
-      "category": "usuario"
-    },
-    {
-      "id": 11,
-      "firstName": "Gabriel",
-      "lastName": "Moreno",
-      "email": "gabriel.moreno@empresa.com",
-      "password": "SuperAdmin999",
-      "category": "admin"
-    },
-    {
-      "id": 12,
-      "firstName": "Elena",
-      "lastName": "Díaz",
-      "email": "elena.diaz@hotmail.com",
-      "password": "RegularUser44",
-      "category": "usuario"
-    },
-    {
-      "id": 13,
-      "firstName": "Nicolás",
-      "lastName": "Hernández",
-      "email": "nicolas.hernandez@yahoo.com",
-      "password": "ModPass2024",
-      "category": "admin"
-    },
-    {
-      "id": 14,
-      "firstName": "Valentina",
-      "lastName": "Castro",
-      "email": "valentina.castro@gmail.com",
-      "password": "UserAccess88",
-      "category": "usuario"
-    },
-    {
-      "id": 15,
-      "firstName": "Ricardo",
-      "lastName": "Vargas",
-      "email": "ricardo.vargas@empresa.com",
-      "password": "TechAdmin777",
-      "category": "admin"
-    }]
+ {
+  "id": 1,
+  "firstName": "Carlos",
+  "lastName": "García",
+  "email": "carlos.garcia@empresa.com",
+  "password": "P@ssw0rd123",
+  "category": "admin"
+ },
+ {
+  "id": 2,
+  "firstName": "Ana",
+  "lastName": "Martínez",
+  "email": "ana.martinez@gmail.com",
+  "password": "SecurePass456",
+  "category": "usuario"
+ },
+ {
+  "id": 3,
+  "firstName": "Diego",
+  "lastName": "López",
+  "email": "diego.lopez@hotmail.com",
+  "password": "MyPassword789",
+  "category": "usuario"
+ },
+ {
+  "id": 4,
+  "firstName": "María",
+  "lastName": "González",
+  "email": "maria.gonzalez@yahoo.com",
+  "password": "StrongPass321",
+  "category": "usuario"
+ },
+ {
+  "id": 5,
+  "firstName": "Alejandro",
+  "lastName": "Rodríguez",
+  "email": "alejandro.rodriguez@empresa.com",
+  "password": "AdminKey2024",
+  "category": "admin"
+ },
+ {
+  "id": 6,
+  "firstName": "Sofia",
+  "lastName": "Fernández",
+  "email": "sofia.fernandez@gmail.com",
+  "password": "UserPass147",
+  "category": "usuario"
+ },
+ {
+  "id": 7,
+  "firstName": "Fernando",
+  "lastName": "Pérez",
+  "email": "fernando.perez@empresa.com",
+  "password": "ModeratorKey98",
+  "category": "usuario"
+ },
+ {
+  "id": 8,
+  "firstName": "Laura",
+  "lastName": "Sánchez",
+  "email": "laura.sanchez@hotmail.com",
+  "password": "GuestAccess55",
+  "category": "usuario"
+ },
+ {
+  "id": 9,
+  "firstName": "Manuel",
+  "lastName": "Jiménez",
+  "email": "manuel.jimenez@yahoo.com",
+  "password": "TempPassword11",
+  "category": "usuario"
+ },
+ {
+  "id": 10,
+  "firstName": "Carolina",
+  "lastName": "Ruiz",
+  "email": "carolina.ruiz@gmail.com",
+  "password": "NewUserPass22",
+  "category": "usuario"
+ },
+ {
+  "id": 11,
+  "firstName": "Gabriel",
+  "lastName": "Moreno",
+  "email": "gabriel.moreno@empresa.com",
+  "password": "SuperAdmin999",
+  "category": "admin"
+ },
+ {
+  "id": 12,
+  "firstName": "Elena",
+  "lastName": "Díaz",
+  "email": "elena.diaz@hotmail.com",
+  "password": "RegularUser44",
+  "category": "usuario"
+ },
+ {
+  "id": 13,
+  "firstName": "Nicolás",
+  "lastName": "Hernández",
+  "email": "nicolas.hernandez@yahoo.com",
+  "password": "ModPass2024",
+  "category": "admin"
+ },
+ {
+  "id": 14,
+  "firstName": "Valentina",
+  "lastName": "Castro",
+  "email": "valentina.castro@gmail.com",
+  "password": "UserAccess88",
+  "category": "usuario"
+ },
+ {
+  "id": 15,
+  "firstName": "Ricardo",
+  "lastName": "Vargas",
+  "email": "ricardo.vargas@empresa.com",
+  "password": "TechAdmin777",
+  "category": "admin"
+ },
+ {
+  "id": 16,
+  "name": "camila zarate",
+  "email": "camila@gmail.com",
+  "phone": "",
+  "password": "123"
+ },
+ {
+  "id": 17,
+  "name": "Pepito",
+  "email": "pepito@gmail.com",
+  "phone": "",
+  "password": "$2b$10$zonrkq2Sp9y9o.Rw8ZVUy.3DI1yOCdxTRE22mJLBryS0g36/v2FPu"
+ },
+ {
+  "id": 18,
+  "name": "camilas zarate",
+  "email": "camilas@gmail.com",
+  "phone": "",
+  "password": "$2b$10$8hwk79BkYTmoAZilQwpJxOb3gy2KF6WGnVuIUzkBRi4619Gm7Glua"
+ },
+ {
+  "id": 19,
+  "name": "camilas zarate",
+  "email": "camilass@gmail.com",
+  "phone": "",
+  "password": "$2b$10$M1Ew8ZCqzORE0R/ib4/OHu8Zdn57HspUxuxovq1bTQalFdDTXdw3K"
+ },
+ {
+  "id": 20,
+  "name": "cami zarate",
+  "email": "camm@gmail.com",
+  "phone": "",
+  "password": "$2b$10$./TxMpcJhNJ3DTI4Ei7b7.D.RPe6fL8WRUXx6y88ZzE4IfPmaeA5y"
+ },
+ {
+  "id": 21,
+  "name": "Juansito",
+  "email": "juansito@gmail.com",
+  "profile": "profile-1757968680317.jpg",
+  "phone": "",
+  "password": "$2b$10$aOzG4cSEk7DMVkVtdpZUheJR8h2njKYs1z4OY0DX280NGd4xlgXWG"
+ },
+ {
+  "id": 22,
+  "name": "Camila",
+  "email": "camilazarate9427@gmail.com",
+  "profile": "profile-1757970027611.jpg",
+  "phone": "",
+  "password": "$2b$10$QR9Ng9pozXMYuLIDGyL7k.J2/hO7p669Go3DQTy.6ISIcFHzGFmhK"
+ }
+]

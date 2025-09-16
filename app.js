@@ -3,6 +3,8 @@ var express = require("express")
 var path = require("path")
 var cookieParser = require("cookie-parser")
 var logger = require("morgan")
+var session = require("express-session")
+const userLogged = require ("./middlewares/userLogged")
 
 var usersRouter = require("./routes/usersRouter")
 let indexRouter = require("./routes/indexRouter")
@@ -11,14 +13,18 @@ let productsRouter = require("./routes/productsRouter")
 var app = express()
 
 // view engine setup
+app.use(
+  session({ secret: "EstoEsunSecreto", saveUninitialized: true, resave: true })
+)
 app.set("views", path.join(__dirname, "views"))
 app.set("view engine", "ejs")
-
+app.use(userLogged)
 app.use(logger("dev"))
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
 app.use(express.static(path.join(__dirname, "public")))
+
 
 app.use("/", indexRouter)
 app.use("/users", usersRouter)

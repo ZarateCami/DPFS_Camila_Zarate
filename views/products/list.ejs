@@ -5,10 +5,12 @@
 
   <body>
     <%- include('../partials/header') %>
+
     <!-- Listado de productos -->
     <section class="products-list" id="productsList">
       <% products.forEach(product => { %>
       <div class="product-card">
+        <a>
         <div class="product-image">
           <img src="<%= product.image %>" alt="<%= product.name %>" />
         </div>
@@ -17,13 +19,14 @@
           <p class="product-description"><%= product.description %></p>
         </div>
         <div class="product-price">
-          <span class="price"><%= product.price %></span>
+          <span class="price">$<%= product.price %></span>
         </div>
         <div class="product-actions">
           <a class="btn-primary" href="#" disabled> Comprar</a>
           <a class="btn-secondary" href="/products/<%= product.id %>">Ver</a>
         </div>
       </div>
+    </a>
       <% }) %>
     </section>
     <%- include('../partials/footer') %>

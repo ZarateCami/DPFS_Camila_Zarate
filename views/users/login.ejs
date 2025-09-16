@@ -14,7 +14,10 @@
         </div>
         <h2>Iniciá sesión</h2>
 
-        <form class="form">
+        <form class="form" action="/users/login" method="post" >
+          <% if (typeof error != "undefined") { %>
+          <small class="error"><%= error %></small>
+          <% } %>
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required />
 
