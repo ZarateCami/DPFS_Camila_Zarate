@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorPrincipal: #1a1625;
+  --colorSecundario: #c44569;
+  --Fondo: #2d2438;
+  --colorFont: white;
+  --detail: #f8b500;
+}
+
+.user-container {
+  color: var(--colorPrincipal);
+  justify-content: start;
+  margin-left: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.user-card {
+  width: 100px;
+  margin: 10px;
+  margin: 20px,0,0,20px;
+}
+
+.user-card img {
+  height: 100px;
+  width: 100%;
+}
+
+.user-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  color: var(--colorPrincipal);
+}
+
+.btn-logout {
+  display: flex;
+  text-decoration: none;
+ flex-direction: column;
+ justify-content: flex-end;
+ margin-left: 12px;
+}

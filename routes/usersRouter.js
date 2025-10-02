@@ -10,6 +10,8 @@ router.get('/login', userController.login);
 
 router.post('/login', userController.processLogin)
 
+router.post("/logout", userController.logout);
+
 router.get('/profile', userController.profile)
 
 router.get('/register', userController.register);

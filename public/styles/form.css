@@ -95,10 +95,6 @@ input[type="file"]::file-selector-button:hover {
   position: relative;
 }
 
-.password-wrapper input {
-  padding-right: 40px;
-}
-
 .toggle-password {
   position: absolute;
   right: 10px;
@@ -106,19 +102,6 @@ input[type="file"]::file-selector-button:hover {
   transform: translateY(-50%);
   cursor: pointer;
   color: var(--colorFont);
-}
-
-.forgot-password {
-  font-size: 12px;
-  text-align: right;
-  display: block;
-  margin-top: 5px;
-  color: var(--colorFont);
-  text-decoration: none;
-}
-
-.forgot-password:hover {
-  color: var(--colorPrincipal);
 }
 
 button {

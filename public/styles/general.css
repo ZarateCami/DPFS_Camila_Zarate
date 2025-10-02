@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -31,7 +32,7 @@ header {
 
 .logo {
   cursor: pointer;
-  max-height: 70px; /* Ajusta según tu diseño */
+  max-height: 70px;
 }
 
 body {
@@ -108,8 +109,16 @@ input:focus {
   color: var(--colorFont);
 }
 
+.fa-user {
+ color: var(--colorFont)
+}
+
 .fa-user:hover {
   color: var(--colorSecundario);
+}
+
+.fa-cart-shopping {
+  color: var(--colorFont)
 }
 
 .fa-cart-shopping:hover {

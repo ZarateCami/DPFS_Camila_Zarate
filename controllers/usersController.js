@@ -46,7 +46,7 @@ let userController = {
         error: "El usuario ya se encuentra registrado",
       })
     }
-    console.log(req.file)
+  
     //Recibir la info y armar la estructura del nuevo usuario
     let newUser = {
       id: users.length + 1,
@@ -67,6 +67,12 @@ let userController = {
 
   profile: function(req, res){
     res.render("users/profile")
-  }
+  },
+
+  logout: function(req, res) {
+  req.session.destroy();
+  res.redirect("/users/login");
+}
+
 }
 module.exports = userController

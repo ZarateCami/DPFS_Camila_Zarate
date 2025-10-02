@@ -2,13 +2,29 @@
 <html lang="en">
   <%- include('../partials/head') %>
 
+  <link rel="stylesheet" href="/styles/userProfile.css" />
   <link rel="stylesheet" href="/styles/form.css" />
 
   <body>
     <%- include('../partials/header') %>
-    <main>
-      perfil de usuario
-      <%= locals.userLogged.name %>
+    <main class="user-container">
+      Perfil del usuario <%= locals.userLogged.name %>
+      <div class="user-card">
+        <img
+          src="/image/users/<%= locals.userLogged.profile %>"
+          alt="foto de perfil de <%= locals.userLogged.name %>"
+        />
+      </div>
+      <div class="user-detail">
+        <div><strong>Nombre:</strong> <%= userLogged.name %></div>
+        <div><strong>Email:</strong> <%= userLogged.email %></div>
+        <div><strong>Teléfono:</strong> <%= userLogged.phone %></div>
+      </div>
+      <div class="btn-logout">
+        <a href="/" 
+          ><button type="submit">Cerrar sesión</button></a
+        >
+      </div>
     </main>
     <%- include('../partials/footer') %>
   </body>
