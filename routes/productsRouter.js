@@ -1,6 +1,7 @@
 var express = require("express")
 const productController = require("../controllers/productsControllers")
 var router = express.Router()
+const { uploadProd } = require("../middlewares/multer");
 
 /* GET products page. */
 /*GET sirve para "Obtener/Leer" información del servidor*/
@@ -8,7 +9,7 @@ var router = express.Router()
 router.get("/create", productController.formCreate)
 
 /*POST sirve para "Enviar/Crear" información al servidor*/
-router.post("/create", productController.createProduct)
+router.post("/create", uploadProd.single('image'), productController.createProduct)
 
 router.get("/edit/:id", productController.editProduct)
 /*El método para recibir la info del form sería put*/

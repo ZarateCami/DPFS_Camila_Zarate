@@ -1,17 +1,5 @@
 [
  {
-  "id": 1,
-  "name": "Funko Pop Batman Dark Knight",
-  "description": "Figura coleccionable de Batman de la película The Dark Knight. Acabado premium con detalles únicos y caja coleccionable.",
-  "image": "/image/products/funko-batman.jpg",
-  "category": "Funko Pop",
-  "colors": [
-   "Negro",
-   "Gris"
-  ],
-  "price": 2890
- },
- {
   "id": 2,
   "name": "Manga Naruto Volumen 1-15 Set Completo",
   "description": "Colección completa de los primeros 15 volúmenes de Naruto en español. Edición original con páginas de alta calidad.",
@@ -361,5 +349,23 @@
   "category": "pepe",
   "colors": "pepe",
   "price": "12345"
+ },
+ {
+  "id": 32,
+  "name": "Muñeco De Peluche Capibara Con Ropa Y Accesorios",
+  "description": "Contiene 1 muñeco de carpincho, 1 sombrero, 4 suéteres y 2 bolsas. ",
+  "image": "not-found.jpg",
+  "category": "Juegos y Juguetes",
+  "colors": "Marrón y rosa",
+  "price": "20000"
+ },
+ {
+  "id": 33,
+  "name": "Funko Pop Batman Dark Knight",
+  "description": "Figura coleccionable de Batman de la película The Dark Knight. Acabado premium con detalles únicos y caja coleccionable.",
+  "image": "prod-1759889783977.jpg",
+  "category": "Figuras coleccionables",
+  "colors": "Negro",
+  "price": "13990"
  }
 ]

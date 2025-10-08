@@ -57,5 +57,13 @@
   "profile": "default-profile.png",
   "phone": "",
   "password": "$2b$10$dmnT69ELaV7TH4RITYuRGOFYwi5DYW.LWyqsxWQKFGRtwe3bguqeu"
+ },
+ {
+  "id": 9,
+  "name": "Tronquis Montis",
+  "email": "tronquis@gmail.com",
+  "profile": "profile-1759792312964.jpg",
+  "phone": "",
+  "password": "$2b$10$sMO6PywdEHQsVCF1PY1LG.K27f1evCFOn8W91E.DKm34A0sK0SYhW"
  }
 ]

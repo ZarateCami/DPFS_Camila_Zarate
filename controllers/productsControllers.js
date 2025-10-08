@@ -26,7 +26,6 @@ let productController = {
   },
 
   editProduct: function (req, res) {
-    console.log(req.params.id)
     res.render("/products/edit")
   },
 
