@@ -6,26 +6,27 @@
     <%- include('../partials/header') %>
     <main>
       <div class="form-container">
-        <h2>Editar Producto</h2>
+        <h2>Editar Producto: <%= pdct.name %></h2>
         
-        <form class="form-container" action="/products/edit/:id" method="POST">
+        <form class="form-container" action= "/products/edit/<%= pdct.id%>" method="POST" enctype="multipart/form-data">
           <label for="name">Nombre del Producto</label>
           <input
             type="text"
             name="name"
             id="name"
             placeholder="Ingrese el nombre del producto"
+            value="<%= pdct.name%>"
             required
           />
           <label for="description">Descripción</label>
           <textarea
             name="description"
             id="description"
-            placeholder="Ingrese una descripción del producto"
-            required
-          ></textarea>
+            placeholder="Ingrese una descripción del producto"><%= pdct.description %>
+          </textarea>
           <label for="image">Imagen</label>
-          <input type="file" name="image" id="image" />
+          <input type="file" name="image" id="image">
+          <img width="100px" src="/image/products/<%= pdct.image %>" alt="<%= pdct.name %>"/>
 
           <label for="category">Categoría</label>
           <input
@@ -33,6 +34,7 @@
             name="category"
             id="category"
             placeholder="Ingrese una categoría"
+              value="<%= pdct.category%>"
             required
           />
 
@@ -51,6 +53,7 @@
             id="price"
             placeholder="Ingrese el precio del producto"
             step="0.01"
+            value="<%= pdct.price %>"
             required
           />
 

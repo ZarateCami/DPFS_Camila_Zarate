@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
- <%- include('../partials/head') %> 
-  
-<body>
-  <%- include('../partials/header') %>
-  
-  <main>
-    <div class="product-detail-container">
-      <div class="breadcrumb">
-        Inicio > Categoría > Nombre del producto
-      </div>
-      
+  <%- include('../partials/head') %>
 
-      <div class="product-detail">
-        <!-- Imagen -->
-        <div class="product-image">
-          <img src="<%= prod.image %>" alt="<%= prod.name %>">
+  <body>
+    <%- include('../partials/header') %>
+
+    <main>
+      <div class="product-detail-container">
+        <div class="breadcrumb">Inicio > Categoría > Nombre del producto</div>
+
+        <div class="product-detail">
+          <!-- Imagen -->
+          <div class="product-image">
+            <img
+              src="/image/products/<%= prod.image %>"
+              alt="<%= prod.name %>"
+            />
+          </div>
+
+          <!-- Información -->
+          <div class="product-info">
+            <h1><%= prod.name %></h1>
+            <p class="price"><%= prod.price %></p>
+            <p class="description"><%= prod.description %></p>
+
+            <label for="cantidad">Cantidad</label>
+            <input type="number" id="cantidad" value="1" min="1" />
+
+            <button id="add-to-cart">Agregar al carrito</button>
+          </div>
         </div>
-
-        <!-- Información -->
-        <div class="product-info">
-          <h1><%= prod.name %></h1>
-          <p class="price"> <%= prod.price %></p>
-          <p class="description">
-            <%= prod.description %>
-          </p>
-
-          <label for="cantidad">Cantidad</label>
-          <input type="number" id="cantidad" value="1" min="1">
-
-          <button id="add-to-cart">Agregar al carrito</button>
-        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <%- include('../partials/footer') %>
-</body>
-
+    <%- include('../partials/footer') %>
+  </body>
 </html>

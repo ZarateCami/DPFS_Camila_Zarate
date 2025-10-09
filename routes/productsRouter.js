@@ -11,8 +11,9 @@ router.get("/create", productController.formCreate)
 /*POST sirve para "Enviar/Crear" información al servidor*/
 router.post("/create", uploadProd.single('image'), productController.createProduct)
 
-router.get("/edit/:id", productController.editProduct)
+router.get("/edit/:id", productController.editForm)
 /*El método para recibir la info del form sería put*/
+router.put("/edit/:id", uploadProd.single('image'), productController.editProduct)
 
 router.get("/list", productController.productList)
 

@@ -19,12 +19,13 @@
 .product-card {
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: solid var(--Fondo), 1px ;
   transition: all 0.3s ease;
   margin: 0, 10px;
   width: 340px;
   height: 520px;
   padding: 10px;
-  background-color: var(--colorSecundario);
+  /* background-color: gray; */
 }
 
 .product-card:hover {

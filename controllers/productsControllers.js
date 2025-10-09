@@ -22,11 +22,33 @@ let productController = {
     }
     product.push(newProduct)
     fs.writeFileSync(productPath, JSON.stringify(product, null, " "))
-    res.redirect("/products/list")
+    res.redirect(`/products/${newProduct.id}`)
+  },
+
+  editForm: function (req, res) {
+    let prodct = fs.readFileSync(productPath, "utf-8")
+    let prodEjs = JSON.parse(prodct)
+    let pdct = prodEjs.find((product) => product.id == req.params.id)
+    res.render("products/edit", { pdct })
   },
 
   editProduct: function (req, res) {
-    res.render("/products/edit")
+    let prod = fs.readFileSync(productPath, "utf-8")
+    let pr = JSON.parse(prod)
+    let prodEdit = pr.find((p) => p.id == req.params.id)
+
+   let prodEditado = {
+      name: req.body.name,
+      description: req.body.description,
+      image: req.file?.filename || prodEdit.image,
+      category: req.body.category,
+      colors: req.body.colors,
+      price: req.body.price,
+    }
+    prod.push(prodEditado)
+    fs.writeFileSync(productPath, JSON.stringify(product, null, " "))
+    res.redirect("/products/productDetail/${prodEditado.id}")
+
   },
 
   productList: function (req, res) {

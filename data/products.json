@@ -1,347 +1,5 @@
 [
  {
-  "id": 2,
-  "name": "Manga Naruto Volumen 1-15 Set Completo",
-  "description": "Colección completa de los primeros 15 volúmenes de Naruto en español. Edición original con páginas de alta calidad.",
-  "image": "/image/products/manga-naruto-set.jpg",
-  "category": "Manga",
-  "colors": [
-   "Original"
-  ],
-  "price": 15750
- },
- {
-  "id": 3,
-  "name": "Taza Térmica Dragon Ball Z Kamehameha",
-  "description": "Taza mágica que cambia de diseño con el calor. Al agregar líquido caliente aparece el Kamehameha de Goku. 350ml de capacidad.",
-  "image": "/image/products/taza-dbz-termica.jpg",
-  "category": "Tazas",
-  "colors": [
-   "Negro",
-   "Azul"
-  ],
-  "price": 1250
- },
- {
-  "id": 4,
-  "name": "Medias Pixel Super Mario Bros",
-  "description": "Medias unisex con diseño pixelado de Super Mario Bros. Material 80% algodón, 15% polyester, 5% elastano.",
-  "image": "/image/products/medias-mario.jpg",
-  "category": "Medias",
-  "colors": [
-   "Rojo",
-   "Verde",
-   "Azul"
-  ],
-  "price": 890
- },
- {
-  "id": 5,
-  "name": "Figura Coleccionable Goku Ultra Instinct",
-  "description": "Figura articulada de Son Goku en modo Ultra Instinct. 20cm de altura con múltiples puntos de articulación y efectos especiales removibles.",
-  "image": "/image/products/figura-goku-ui.jpg",
-  "category": "Figuras Coleccionables",
-  "colors": [
-   "Blanco",
-   "Plata"
-  ],
-  "price": 8900
- },
- {
-  "id": 6,
-  "name": "Cómic The Walking Dead #1 Edición Especial",
-  "description": "Primera edición del icónico cómic The Walking Dead de Robert Kirkman. Estado mint, con certificado de autenticidad.",
-  "image": "/image/products/comic-twd-1.jpg",
-  "category": "Cómics",
-  "colors": [
-   "Original"
-  ],
-  "price": 12500
- },
- {
-  "id": 7,
-  "name": "Funko Pop Vegeta Super Saiyan Blue",
-  "description": "Funko Pop exclusivo de Vegeta en su forma Super Saiyan Blue. Edición limitada con acabado metalizado en el cabello.",
-  "image": "/image/products/funko-vegeta-ssb.jpg",
-  "category": "Funko Pop",
-  "colors": [
-   "Azul",
-   "Dorado"
-  ],
-  "price": 3150
- },
- {
-  "id": 8,
-  "name": "Taza Juego de Tronos Casa Stark",
-  "description": "Taza de cerámica premium con el emblema de la Casa Stark. Resistente al lavavajillas y microondas. 400ml.",
-  "image": "/image/products/taza-got-stark.jpg",
-  "category": "Tazas",
-  "colors": [
-   "Gris",
-   "Negro"
-  ],
-  "price": 1450
- },
- {
-  "id": 9,
-  "name": "Medias Pokémon Pikachu Lightning",
-  "description": "Pack de 3 pares de medias con diseños de Pikachu y rayos. Ideales para fans de Pokémon. Tallas disponibles.",
-  "image": "/image/products/medias-pikachu.jpg",
-  "category": "Medias",
-  "colors": [
-   "Amarillo",
-   "Negro",
-   "Blanco"
-  ],
-  "price": 1690
- },
- {
-  "id": 10,
-  "name": "Manga Attack on Titan Volumen 34 Final",
-  "description": "Volumen final de Shingeki no Kyojin (Attack on Titan). Edición especial con páginas a color y arte conceptual exclusivo.",
-  "image": "/image/products/manga-aot-34.jpg",
-  "category": "Manga",
-  "colors": [
-   "Original"
-  ],
-  "price": 1890
- },
- {
-  "id": 11,
-  "name": "Figura Coleccionable Iron Man Mark 85",
-  "description": "Replica exacta del Mark 85 de Avengers Endgame. 25cm de altura con luces LED en arc reactor y repulsores.",
-  "image": "/image/products/figura-ironman-mk85.jpg",
-  "category": "Figuras Coleccionables",
-  "colors": [
-   "Rojo",
-   "Dorado"
-  ],
-  "price": 15900
- },
- {
-  "id": 12,
-  "name": "Cómic Batman The Killing Joke Deluxe",
-  "description": "Edición deluxe de The Killing Joke de Alan Moore. Tapa dura, páginas especiales y contenido extra nunca antes visto.",
-  "image": "/image/products/comic-batman-kj.jpg",
-  "category": "Cómics",
-  "colors": [
-   "Original"
-  ],
-  "price": 4750
- },
- {
-  "id": 13,
-  "name": "Funko Pop Deadpool Chimichanga",
-  "description": "Funko Pop de Deadpool comiendo chimichanga. Edición limitada con accesorios removibles y base temática.",
-  "image": "/image/products/funko-deadpool-chimi.jpg",
-  "category": "Funko Pop",
-  "colors": [
-   "Rojo",
-   "Negro"
-  ],
-  "price": 2650
- },
- {
-  "id": 14,
-  "name": "Taza Stranger Things Demogorgon",
-  "description": "Taza con forma de cabeza de Demogorgon. Material de silicona suave con interior de cerámica. Regalo perfecto para fans.",
-  "image": "/image/products/taza-st-demogorgon.jpg",
-  "category": "Tazas",
-  "colors": [
-   "Negro",
-   "Marrón"
-  ],
-  "price": 2190
- },
- {
-  "id": 15,
-  "name": "Medias Star Wars Darth Vader",
-  "description": "Medias oficiales de Star Wars con diseño de Darth Vader. Incluye sonido de respiración al caminar (no incluye pilas).",
-  "image": "/image/products/medias-vader.jpg",
-  "category": "Medias",
-  "colors": [
-   "Negro",
-   "Rojo"
-  ],
-  "price": 1450
- },
- {
-  "id": 16,
-  "name": "Manga One Piece Box Set East Blue Saga",
-  "description": "Caja coleccionable con los primeros 12 volúmenes de One Piece. Incluye poster exclusivo y mapa del East Blue.",
-  "image": "/image/products/manga-op-eastblue.jpg",
-  "category": "Manga",
-  "colors": [
-   "Original"
-  ],
-  "price": 18900
- },
- {
-  "id": 17,
-  "name": "Figura Coleccionable Naruto Sage Mode",
-  "description": "Naruto en Modo Sabio con sapos Fukasaku y Shima. Figura de 22cm con efectos de chakra removibles y base giratoria.",
-  "image": "/image/products/figura-naruto-sage.jpg",
-  "category": "Figuras Coleccionables",
-  "colors": [
-   "Naranja",
-   "Verde"
-  ],
-  "price": 9750
- },
- {
-  "id": 18,
-  "name": "Cómic Spider-Man #1 Amazing Fantasy",
-  "description": "Reimpresión de calidad premium de Amazing Fantasy #15, primera aparición de Spider-Man. Papel couché de lujo.",
-  "image": "/image/products/comic-spiderman-af15.jpg",
-  "category": "Cómics",
-  "colors": [
-   "Original"
-  ],
-  "price": 3890
- },
- {
-  "id": 19,
-  "name": "Funko Pop Sailor Moon Crystal",
-  "description": "Sailor Moon en su forma Crystal con báculo lunar. Acabado perlado especial y peana con efectos de luna.",
-  "image": "/image/products/funko-sailormoon.jpg",
-  "category": "Funko Pop",
-  "colors": [
-   "Rosa",
-   "Dorado",
-   "Blanco"
-  ],
-  "price": 3350
- },
- {
-  "id": 20,
-  "name": "Taza Rick and Morty Portal Gun",
-  "description": "Taza con mango en forma de Portal Gun. Al agregar líquido caliente aparece un portal dimensional. Efecto térmico único.",
-  "image": "/image/products/taza-rm-portal.jpg",
-  "category": "Tazas",
-  "colors": [
-   "Verde",
-   "Gris"
-  ],
-  "price": 2750
- },
- {
-  "id": 21,
-  "name": "Medias Anime Waifu Collection Pack",
-  "description": "Pack de 5 pares de medias con diseños de waifus populares. Incluye personajes de diferentes animes. Edición limitada.",
-  "image": "/image/products/medias-waifu-pack.jpg",
-  "category": "Medias",
-  "colors": [
-   "Multicolor",
-   "Pastel"
-  ],
-  "price": 2890
- },
- {
-  "id": 22,
-  "name": "Manga Demon Slayer Kimetsu no Yaiba Completo",
-  "description": "Serie completa de Demon Slayer (23 volúmenes). Incluye caja coleccionable y bookmarks exclusivos de cada Hashira.",
-  "image": "/image/products/manga-ds-completo.jpg",
-  "category": "Manga",
-  "colors": [
-   "Original"
-  ],
-  "price": 34500
- },
- {
-  "id": 23,
-  "name": "Figura Coleccionable Guts Berserker Armor",
-  "description": "Guts de Berserk con la armadura Berserker. Figura de 28cm con múltiples accesorios y efectos de furia desmontables.",
-  "image": "/image/products/figura-guts-berserker.jpg",
-  "category": "Figuras Coleccionables",
-  "colors": [
-   "Negro",
-   "Rojo"
-  ],
-  "price": 21900
- },
- {
-  "id": 24,
-  "name": "Cómic Watchmen Absolute Edition",
-  "description": "Edición absoluta de Watchmen de Alan Moore. Formato oversize, tapa dura con slipcase y material extra de 100+ páginas.",
-  "image": "/image/products/comic-watchmen-absolute.jpg",
-  "category": "Cómics",
-  "colors": [
-   "Original"
-  ],
-  "price": 8950
- },
- {
-  "id": 25,
-  "name": "Funko Pop Goku Ultra Instinct Glow",
-  "description": "Goku Ultra Instinct con efecto Glow in the Dark. Exclusivo de convención con numeración limitada y certificado.",
-  "image": "/image/products/funko-goku-ui-glow.jpg",
-  "category": "Funko Pop",
-  "colors": [
-   "Blanco",
-   "Plateado"
-  ],
-  "price": 4890
- },
- {
-  "id": 26,
-  "name": "Taza Zelda Master Sword Handle",
-  "description": "Taza única con mango en forma de Master Sword. Incluye soporte de escudo Hylian. Oficialmente licenciada por Nintendo.",
-  "image": "/image/products/taza-zelda-mastersword.jpg",
-  "category": "Tazas",
-  "colors": [
-   "Azul",
-   "Dorado"
-  ],
-  "price": 3290
- },
- {
-  "id": 27,
-  "name": "Medias Retro Gaming 8-bit Heroes",
-  "description": "Set de medias con personajes clásicos de videojuegos en estilo 8-bit. Incluye Mario, Link, Mega Man y Pac-Man.",
-  "image": "/image/products/medias-retro-gaming.jpg",
-  "category": "Medias",
-  "colors": [
-   "Multicolor",
-   "Pixelado"
-  ],
-  "price": 1890
- },
- {
-  "id": 28,
-  "name": "Manga Your Name Edición Especial",
-  "description": "Adaptación manga de Kimi no Na wa con páginas a color extra. Incluye storyboard original de Makoto Shinkai.",
-  "image": "/image/products/manga-yourname-especial.jpg",
-  "category": "Manga",
-  "colors": [
-   "Original"
-  ],
-  "price": 2650
- },
- {
-  "id": 29,
-  "name": "Figura Coleccionable Saitama Serious Punch",
-  "description": "One Punch Man en pose de Serious Punch. Efectos de viento y impacto incluidos. Base diorama destructible.",
-  "image": "/image/products/figura-saitama-punch.jpg",
-  "category": "Figuras Coleccionables",
-  "colors": [
-   "Amarillo",
-   "Rojo",
-   "Blanco"
-  ],
-  "price": 11500
- },
- {
-  "id": 30,
-  "name": "Cómic The Sandman Vol.1 Deluxe",
-  "description": "Primera entrega de The Sandman de Neil Gaiman en edición deluxe. Páginas remasterizadas y contenido adicional inédito.",
-  "image": "/image/products/comic-sandman-v1.jpg",
-  "category": "Cómics",
-  "colors": [
-   "Original"
-  ],
-  "price": 5750
- },
- {
   "id": 31,
   "name": "pepe",
   "description": "pepe",
@@ -367,5 +25,104 @@
   "category": "Figuras coleccionables",
   "colors": "Negro",
   "price": "13990"
+ },
+ {
+  "id": 4,
+  "name": "Manga Naruto Volumen 1-15 Set Completo",
+  "description": "Colección completa de los primeros 15 volúmenes de Naruto en español. Edición original con páginas de alta calidad.",
+  "image": "prod-1759890208552.jpg",
+  "category": "Manga",
+  "colors": "Naranja",
+  "price": "15750"
+ },
+ {
+  "id": 5,
+  "name": "Taza Térmica Dragon Ball Z Kamehameha",
+  "description": "Taza mágica que cambia de diseño con el calor. Al agregar líquido caliente aparece el Kamehameha de Goku. 350ml de capacidad.",
+  "image": "prod-1759890426917.jpg",
+  "category": "Tazas",
+  "colors": "Negro y Azul",
+  "price": "9800"
+ },
+ {
+  "id": 6,
+  "name": "Medias Pixel Super Mario Bros",
+  "description": "Medias unisex con diseño pixelado de Super Mario Bros. Material 80% algodón, 15% polyester, 5% elastano.",
+  "image": "prod-1759890827658.jpg",
+  "category": "Medias",
+  "colors": "Rojo, Verde, Azul",
+  "price": "3990"
+ },
+ {
+  "id": 7,
+  "name": "Figura Coleccionable Goku Ultra Instinct",
+  "description": "Figura articulada de Son Goku en modo Ultra Instinct. 20cm de altura con múltiples puntos de articulación y efectos especiales removibles.",
+  "image": "prod-1759890905079.jpg",
+  "category": "Figuras Coleccionables",
+  "colors": "Blanco",
+  "price": "9870"
+ },
+ {
+  "id": 8,
+  "name": "Cómic The Walking Dead #1 Edición Especial",
+  "description": "Primera edición del icónico cómic The Walking Dead de Robert Kirkman. Estado mint, con certificado de autenticidad.",
+  "image": "prod-1759891456544.jpg",
+  "category": "Comics",
+  "colors": "Original",
+  "price": "12500"
+ },
+ {
+  "id": 9,
+  "name": "Funko Pop Vegeta Super Saiyan Blue",
+  "description": "Funko Pop exclusivo de Vegeta en su forma Super Saiyan Blue. Edición limitada con acabado metalizado en el cabello.",
+  "image": "prod-1759891529674.jpg",
+  "category": "Funko Pop",
+  "colors": "Azul",
+  "price": "13990"
+ },
+ {
+  "id": 10,
+  "name": "Taza Juego de Tronos Casa Stark",
+  "description": "Taza de cerámica premium con el emblema de la Casa Stark. Resistente al lavavajillas y microondas. 400ml.",
+  "image": "prod-1759964988614.jpg",
+  "category": "Tazas",
+  "colors": "Gris y negro",
+  "price": "9900"
+ },
+ {
+  "id": 11,
+  "name": "Medias Pokémon Pikachu Lightning",
+  "description": "Pack de 3 pares de medias con diseños de Pikachu y rayos. Ideales para fans de Pokémon. Tallas disponibles.",
+  "image": "prod-1759965425151.jpg",
+  "category": "Medias",
+  "colors": "Amarillo, negro",
+  "price": "4990"
+ },
+ {
+  "id": 12,
+  "name": "Manga Attack on Titan Volumen 34 Final",
+  "description": "Volumen final de Shingeki no Kyojin (Attack on Titan). Edición especial con páginas a color y arte conceptual exclusivo.",
+  "image": "not-found.jpg",
+  "category": "Manga",
+  "colors": "Original",
+  "price": "13440"
+ },
+ {
+  "id": 13,
+  "name": "Figura Coleccionable Iron Man Mark 85",
+  "description": "Replica exacta del Mark 85 de Avengers Endgame. 25cm de altura con luces LED en arc reactor y repulsores.",
+  "image": "prod-1759965733718.jpg",
+  "category": "Figuras Coleccionables",
+  "colors": "Rojo",
+  "price": "15900"
+ },
+ {
+  "id": 14,
+  "name": "Figura Coleccionable Iron Man Mark 85",
+  "description": "Replica exacta del Mark 85 de Avengers Endgame. 25cm de altura con luces LED en arc reactor y repulsores.",
+  "image": "prod-1759965765923.jpg",
+  "category": "Figuras Coleccionables",
+  "colors": "Rojo",
+  "price": "15900"
  }
 ]
