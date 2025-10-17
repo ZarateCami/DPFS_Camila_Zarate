@@ -8,7 +8,7 @@
       <div class="form-container">
         <h2>Editar Producto: <%= pdct.name %></h2>
         
-        <form class="form-container" action= "/products/edit/<%= pdct.id%>" method="POST" enctype="multipart/form-data">
+        <form class="form" action= "/products/edit/<%= pdct.id%>" method="POST" enctype="multipart/form-data">
           <label for="name">Nombre del Producto</label>
           <input
             type="text"
